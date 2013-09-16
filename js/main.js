@@ -49,11 +49,8 @@
     comments: "",
 
     sendContactInformation: function(e){
-      var fn = this.get("firstname");
-      var ln = this.get("lastName");
+      alert(kendo.stringify(this));
 
-
-      //Everlive.Email.sendEmailFromTemplate(templateName, recipients, context, callback);
     }
   });
 
