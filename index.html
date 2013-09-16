@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>Chili Fun Factory</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/site.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+      <![endif]-->
+
+      <!-- Custom styles for this template -->
+      <link href="css/carousel.css" rel="stylesheet">
+    </head>
+<!-- NAVBAR
+  ================================================== -->
+  <body>
+
+   <!-- define a template for the layout -->
+   <script id="layout-template" type="text/x-keno-template">
+    <div class="subPage" style="margin-top: -1em !important; padding-top: 1em;">
+      <div id="navigation-layout"></div>
+    </div>
+    <div id="main-layout"></div>
+  </script>
+
+  <!-- define templates for all the views -->
+
+    <script id="navigation-template" type="text/x-kendo-template">
+      <div class="navbar-wrapper">
+        <div class="container">
+
+          <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Chili Fun Factory</a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul id="ulNavigation" class="nav navbar-nav">
+                  <li id="liHome" class="active" data-bind="events: { click: homeClicked }"><a href="#home">Home</a></li>
+                  <li id="liAbout"><a href="#about" data-bind="events: { click: aboutClicked }">About</a></li>
+                  <li id="liContact"><a href="#contact" data-bind="events: { click: contactClicked }">Contact</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Nav header</li>
+                      <li><a href="#">Separated link</a></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </script>
+
+     <script id="home-template" type="text/x-kendo-template">
+      <div class="container"><h1>home section</h1></div>
+    </script>
+    <script id="about-template" type="text/x-kendo-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>about chili fun factory</h1>
+            <p>
+              The idea for Chili Fun Factory came from my love of doing cutting edge web development and my love for my wife Sheli. 
+            </p>
+            <p>
+            Sheli and I have been together for a couple years, and since our very first date she has always encouraged me to be more and grow more than I ever thought possible. She truly is my much better half. I have always heard that behind every good man is an even better woman, and in this case it is so true.
+            </p>
+            <p>
+            Enough of the mushy stuff. This site has been done as a tribute to the things I have been learning and all those people and companies that support me. The site was written in jQuery, Kendo UI, HTML5, and CSS3. All the data that drives the site has been stored in Everlive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script id="contact-template" type="text/x-kendo-template">
+      <div class="container">
+        <h1>contact section</h1>
+          <form role="form" id="contactForm">
+            <div class="row">         
+              <div class="form-group col-md-6">
+                <label for="firstName">first</label>
+                <input type="text" class="form-control" id="firstName" placeholder="first name" required validation-msg="" 
+                  data-bind="value: firstName">
+              </div>
+            </div>
+            <div class="row">         
+              <div class="form-group col-md-6">
+                <label for="lastName">last</label>
+                <input type="text" class="form-control" id="lastName" placeholder="last name" required validation-msg="" 
+                  data-bind="value: lastName">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="emailAddress">email</label>
+                <input type="email" class="form-control" id="emailAddress" placeholder="email address" required validation-msg="" 
+                  data-bind="value: emailAddress">
+              </div>
+            </div>
+            <div class="row">         
+              <div class="form-group col-md-6">
+                <label for="userComments">comments</label>
+                <textarea class="form-control" id="userComments" rows="3" placeholder="questions/comments" required validation-msg="" 
+                  data-bind="value: userComments"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-default" data-bind="events: { click: sendContactInformation }">Submit</button>
+        </form>
+      </div>
+    </script>
+
+    <script id="carousel-data-template" type="text/x-kendo-template">
+      <div class="item" style="padding-top:10em;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-push-3 text-center">
+              #if(img != ""){#
+                <img src="#: img #" alt="#: title #" class="img-thumbnail">
+              # } else { #
+                <img class="img-thumbnail" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+                # } #
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-push-3 white  text-center">
+              <h1>#= title #</h1>
+              <span>#= content #</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <!-- a div to place everything in to the page -->
+    <div id="main"></div>
+
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="assets/js/holder.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+
+      
+    </script>
+  </body>
+</html>

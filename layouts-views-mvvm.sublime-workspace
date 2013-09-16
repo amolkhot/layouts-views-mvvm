@@ -1,0 +1,865 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"navig",
+				"navigationModel"
+			],
+			[
+				"car",
+				"carousel-data-template"
+			],
+			[
+				"caros",
+				"carouselModel"
+			],
+			[
+				"caro",
+				"carouselData"
+			],
+			[
+				"naigation",
+				"navigationView"
+			],
+			[
+				"nav",
+				"navigation-template"
+			],
+			[
+				"last",
+				"LastName"
+			],
+			[
+				"First",
+				"FirstName"
+			],
+			[
+				"selec",
+				"selectedListId"
+			],
+			[
+				"set",
+				"setTaskLabel"
+			],
+			[
+				"filter",
+				"filterStat"
+			],
+			[
+				"fil",
+				"filterStat"
+			],
+			[
+				"Task",
+				"TaskData"
+			],
+			[
+				"select",
+				"selectedTaskId"
+			],
+			[
+				"add",
+				"addListItem"
+			],
+			[
+				"List",
+				"ListData"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"getListsItems"
+			],
+			[
+				"li",
+				"ListItems"
+			],
+			[
+				"show",
+				"showMenuOptions"
+			],
+			[
+				"create",
+				"createAccountView"
+			],
+			[
+				"Rec",
+				"RectangleView"
+			],
+			[
+				"update",
+				"updateList"
+			],
+			[
+				"user",
+				"UserListView"
+			],
+			[
+				"logout",
+				"logout"
+			],
+			[
+				"cu",
+				"currentUser"
+			],
+			[
+				"list",
+				"ListItem"
+			],
+			[
+				"del",
+				"deleteId"
+			],
+			[
+				"log",
+				"log"
+			],
+			[
+				"data",
+				"dataSource"
+			],
+			[
+				"login",
+				"loginView"
+			],
+			[
+				"fir",
+				"firstName"
+			],
+			[
+				"f",
+				"firstname"
+			],
+			[
+				"Par",
+				"ParseUser"
+			],
+			[
+				"pa",
+				"parseUser"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"btnna",
+				"btnNavCreateAccount"
+			],
+			[
+				"creat",
+				"createOnEnter"
+			],
+			[
+				"todo",
+				"todo-list"
+			],
+			[
+				"all",
+				"allCheckbox"
+			],
+			[
+				"Todo",
+				"TodoList"
+			],
+			[
+				"to",
+				"todos"
+			],
+			[
+				"sele",
+				"selectedListId"
+			],
+			[
+				"userl",
+				"userListDataSource"
+			],
+			[
+				"usertask",
+				"usertask"
+			],
+			[
+				"view",
+				"viewTask"
+			],
+			[
+				"new",
+				"newView"
+			],
+			[
+				"To",
+				"TodoList"
+			],
+			[
+				"hide",
+				"hideUserWrappers"
+			],
+			[
+				"sea",
+				"searchform-wrap"
+			],
+			[
+				"hom",
+				"home-wrap"
+			],
+			[
+				"se",
+				"searchform-wrap"
+			],
+			[
+				"btn",
+				"btnLogout"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"upd",
+				"updateDivs"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"confirm",
+				"confirmpassword"
+			],
+			[
+				"chek",
+				"CheckValidated"
+			],
+			[
+				"valid",
+				"validated"
+			],
+			[
+				"sear",
+				"searchform"
+			],
+			[
+				"User",
+				"userName"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"pos",
+				"background-position"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"hr",
+				"HR	Tag"
+			],
+			[
+				"wea",
+				"weather"
+			],
+			[
+				"weather",
+				"weather"
+			],
+			[
+				"temp",
+				"tempMinC"
+			],
+			[
+				"te",
+				"tempMaxC"
+			],
+			[
+				"we",
+				"weatherForecast"
+			],
+			[
+				"wet",
+				"weatherForecast"
+			],
+			[
+				"weat",
+				"weatherDesc"
+			],
+			[
+				"template",
+				"template1"
+			],
+			[
+				"current",
+				"currentcondition"
+			],
+			[
+				"my",
+				"MyWeatherWigit"
+			],
+			[
+				"curre",
+				"current_conditions"
+			],
+			[
+				"a",
+				"addMe"
+			],
+			[
+				"cur",
+				"current_conditions"
+			],
+			[
+				"curren",
+				"current_condition"
+			],
+			[
+				"c",
+				"current_condition"
+			],
+			[
+				"width",
+				"min-width"
+			],
+			[
+				"de",
+				"Description"
+			],
+			[
+				"load",
+				"loadDetails"
+			],
+			[
+				"app",
+				"appendTo"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"gpg",
+				"gpgPrices"
+			],
+			[
+				"gpgPr",
+				"gpgPrices"
+			],
+			[
+				"gg",
+				"gpgPrices"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"lin",
+				"letter-spacing"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"button",
+				"buttonControls"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"config",
+				"configButton"
+			],
+			[
+				"fu",
+				"fuelTypes"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"cc",
+				"cc"
+			],
+			[
+				"fuel",
+				"fuelType"
+			],
+			[
+				"cost",
+				"costCenter"
+			],
+			[
+				"register",
+				"registerHelper"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"co",
+				"costCenterInfo"
+			],
+			[
+				"costCen",
+				"costCenterInfo"
+			],
+			[
+				"twee",
+				"tweets"
+			],
+			[
+				"com",
+				"compile"
+			],
+			[
+				"im",
+				"imgsLen"
+			],
+			[
+				"sli",
+				"sliderUL"
+			],
+			[
+				"Fade",
+				"FadeSlideToggle"
+			],
+			[
+				"win",
+				"winWidth"
+			],
+			[
+				"Wi",
+				"width"
+			],
+			[
+				"fon",
+				"fontSize"
+			],
+			[
+				"b",
+				"box"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"sc",
+				"SCRIPT	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Snippet: k",
+				"Snippet: kendohtml"
+			],
+			[
+				"Snippet: ken",
+				"Snippet: kendohtml"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Projects/bootstrap-SPA/index.html",
+		"/C/Projects/bootstrap-SPA/js/main.js",
+		"/C/Projects/bootstrap-SPA/css/site.css",
+		"/C/Projects/bootstrap-SPA/js/kendo.all.min.js",
+		"/C/Projects/bootstrap-SPA/js/kendo.all2.min.js",
+		"/C/Projects/bootstrap-SPA/js/kendo.web.min.js",
+		"/C/Users/Charles Catron/Downloads/bootstrap-3.0.0/getting-started.html",
+		"/C/Projects/test/js/app.js",
+		"/C/Projects/kitteh-gallereh/2-layout-part-1/views/templates.html",
+		"/C/Projects/kitteh-gallereh/2-layout-part-1/public/js/imagegallery.js",
+		"/C/Projects/kitteh-gallereh/2-layout-part-1/views/layout.jade",
+		"/C/Projects/kitteh-gallereh/1-view-viewmodel/app.js",
+		"/C/Projects/kitteh-gallereh/1-view-viewmodel/views/templates.html",
+		"/C/Projects/kitteh-gallereh/1-view-viewmodel/public/js/imagegallery.js",
+		"/C/Program Files (x86)/Telerik/Kendo UI Web Q2 2013/examples/web/spa/Sushi.html",
+		"/C/Program Files (x86)/Telerik/Kendo UI Web Q2 2013/examples/content/spa/websushi/js/sushi.js",
+		"/C/Users/Charles Catron/Kendo Books/Instant Kendo UI Mobile/index.html",
+		"/C/Users/Charles Catron/Downloads/devlink/locations.json",
+		"/C/Users/Charles Catron/Downloads/devlink/levels.json",
+		"/C/Users/Charles Catron/Downloads/devlink/agenda.json",
+		"/C/Users/Charles Catron/Documents/Kendo UI Samples/kendo-ui-samples/Data Source/index.html",
+		"/C/Users/Charles Catron/Downloads/phonegap-ua-push-master/phonegap-ua-push-master/Example/index.html",
+		"/C/Users/Charles Catron/Downloads/Orchard.Theme.Dark-2.0.0.0.nupkg",
+		"/C/chilifunfactory.com/wwwroot/App_Data/Sitefinity/Configuration/DataConfig.config",
+		"/C/Users/Charles Catron/Desktop/mydo-backbone-master/mydo-backbone-master/index.html",
+		"/C/Users/Charles Catron/Documents/Kendo UI Samples/Data Source/index.html",
+		"/C/Users/Charles Catron/Desktop/mydo-backbone-master/mydo-backbone-master/scripts/views/task.js",
+		"/C/Users/Charles Catron/Desktop/mydo-backbone-master/mydo-backbone-master/scripts/views/list.js",
+		"/C/Users/Charles Catron/Desktop/mydo-backbone-master/mydo-backbone-master/scripts/views/menu.js",
+		"/C/Users/Charles Catron/Desktop/mydo-backbone-master/mydo-backbone-master/scripts/app.js",
+		"/C/Users/Charles Catron/Desktop/mydo-backbone-master/mydo-backbone-master/scripts/views/login.js",
+		"/C/Projects/mydo-backbone/css/main.css",
+		"/C/Projects/mydo-backbone/scripts/app.js",
+		"/C/Projects/mydo-backbone/scripts/views/menu.js",
+		"/C/Projects/mydo-backbone/scripts/views/about.js",
+		"/C/Projects/mydo-backbone/index.html",
+		"/C/Chuck/mydo-backbone/scripts/app.js",
+		"/C/Chuck/mydo-backbone/scripts/views/login.js",
+		"/C/Chuck/mydo-backbone/css/main.css",
+		"/C/Chuck/mydo-backbone/scripts/views/task.js",
+		"/C/Chuck/mydo-backbone/scripts/views/list.js",
+		"/C/Chuck/mydo-backbone/scripts/views/createaccount.js",
+		"/C/Chuck/mydo-backbone/scripts/views/menu.js",
+		"/C/Chuck/mydo-backbone/index.html",
+		"/C/Chuck/mydo-backbone/scripts/models/user.js",
+		"/C/Chuck/mydo-backbone/scripts/views/contact.js",
+		"/C/Chuck/mydo-backbone/css/toastr.css",
+		"/C/Chuck/mydo-backbone/js/toastr.js",
+		"/C/Chuck/mydo-backbone/scripts/models/contact.js",
+		"/C/Chuck/mydo-backbone/css/bootstrap.css",
+		"/C/Chuck/mydo-backbone/css/bootstrap.min.css",
+		"/C/Chuck/mydo-backbone/scripts/models/login.js",
+		"/C/Chuck/mydo-backbone/scripts/namespaces.js",
+		"/C/Chuck/mydo-backbone/js/models/user.js",
+		"/C/Chuck/mydo-backbone/js/namespaces.js",
+		"/C/Chuck/Backbone Fundamentals/Models/index.html",
+		"/C/Chuck/Backbone Fundamentals/Intro/index.html",
+		"/C/Chuck/Shop Smarter/js/views/menu.js",
+		"/C/Chuck/Shop Smarter/js/app.js",
+		"/C/Chuck/Shop Smarter/index.html",
+		"/C/Chuck/Shop Smarter/js/views/login.js",
+		"/C/Chuck/Shop Smarter/js/views/userlist.js",
+		"/C/Chuck/Shop Smarter/js/views/home.js",
+		"/C/Chuck/Shop Smarter/js/views/user.js",
+		"/C/Chuck/Shop Smarter/js/views/account.js",
+		"/C/Chuck/Shop Smarter/js/namespaces.js",
+		"/C/Chuck/Shop Smarter/js/models/user.js",
+		"/C/Chuck/Shop Smarter/js/views/contact.js",
+		"/C/Chuck/Shop Smarter/js/data/listitems.js",
+		"/C/Chuck/Shop Smarter/js/collections/listitems.js",
+		"/C/Chuck/Shop Smarter/js/models/listitem.js",
+		"/C/Documents and Settings/FLA/Desktop/kendoui/js/kendo.data.min.js",
+		"/O/30_days/gd2/SA22IrtsNEW_Change3.mdb",
+		"/C/Chuck/Shop Smarter/js/jquery.parse.js",
+		"/C/Documents and Settings/FLA/Application Data/Microsoft/Internet Explorer/Quick Launch/Launch Windows Explorer.lnk",
+		"/C/Temp/Shop-Smarter-master/Shop-Smarter-master/js/user/user.js",
+		"/C/Temp/Shop-Smarter-master/Shop-Smarter-master/index.html",
+		"/C/Chuck/Shop Smarter/js/user/user.js",
+		"/C/Chuck/Shop Smarter/js/user/parseuser.js",
+		"/C/Chuck/Shop Smarter/test.js",
+		"/C/Documents and Settings/FLA/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Documents and Settings/FLA/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/index.html",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/breakout/index.html",
+		"/C/Chuck/Kendo UI/Robo/Customer Service Tools/views/merge.html",
+		"/C/Chuck/Kendo UI/Robo/Customer Service Tools/views/index.html",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/js/views/app.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/js/views/todo.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/js/app.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/js/routers/router.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/js/collections/todos.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/js/models/todo.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/todos/css/base.css",
+		"/C/Chuck/Kendo UI/Backbone/index.html",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/Inheritance With Kendo UI/index.html",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/Inheritance With Kendo UI/js/backbone.localStorage.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/Inheritance With Kendo UI/js/backbone.eventbinder.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/Inheritance With Kendo UI/js/backbone.wreqr.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/Inheritance With Kendo UI/js/backbone.marionette.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/Inheritance With Kendo UI/js/backbone.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/Inheritance With Kendo UI/js/underscore.js",
+		"/C/Chuck/Kendo UI/Backbone-Fundamentals/index.html",
+		"/C/Documents and Settings/FLA/Desktop/Shop Smarter/scripts/models/listitem.js",
+		"/C/Documents and Settings/FLA/Desktop/Shop Smarter/scripts/views/listitems.js",
+		"/C/Documents and Settings/FLA/Desktop/Shop Smarter/scripts/views/new_listitem.js",
+		"/C/Documents and Settings/FLA/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Documents and Settings/FLA/Desktop/Shop Smarter/index.html",
+		"/C/Chuck/frickin-azure-master/index.html",
+		"/C/Chuck/frickin-azure-master/scripts/views/question.js",
+		"/C/Chuck/frickin-azure-master/scripts/views/login.js",
+		"/C/Chuck/frickin-azure-master/scripts/models/user.js",
+		"/C/Chuck/frickin-azure-master/scripts/views/questions.js",
+		"/C/Chuck/frickin-azure-master/scripts/collections/questions.js",
+		"/C/Chuck/frickin-azure-master/overflow.css",
+		"/C/Chuck/frickin-azure-master/scripts/app.js",
+		"/C/Documents and Settings/FLA/Desktop/jQuery/backbone/todo - example/js/models/todo.js",
+		"/C/Documents and Settings/FLA/Desktop/jQuery/backbone/todo - example/js/collections/todo.js",
+		"/C/Documents and Settings/FLA/Desktop/jQuery/backbone/todo - example/models/todo.js",
+		"/C/Documents and Settings/FLA/Desktop/jQuery/backbone/todo - example/assets/base.css",
+		"/C/Documents and Settings/FLA/Desktop/jQuery/kendoValidation/index.html",
+		"/C/Documents and Settings/FLA/Desktop/frickin_azure/default.html",
+		"/C/Documents and Settings/FLA/Local Settings/Apps/2.0/22JBK9ER.YDV/E64TJKPL.XZB/icen...exe_1dcf05cf98ac3011_07dc.0003_none_75dce552597bd806/Icenium.Graphite.exe.config",
+		"/C/Documents and Settings/FLA/Desktop/frickin_azure/js/default.js",
+		"/C/Documents and Settings/FLA/Desktop/frickin_azure/package.appxmanifest",
+		"/C/Documents and Settings/FLA/Local Settings/Apps/2.0/22JBK9ER.YDV/E64TJKPL.XZB/icen..tion_1dcf05cf98ac3011_07dc.0003_298e97aaf98c4f64/Icenium.Graphite.exe.config",
+		"/C/Projects/hello-world/README",
+		"/C/Documents and Settings/FLA/Desktop/jQuery/myweather/index.html",
+		"/C/SSA/SSADotNet40/Speedway.IncidentReporting.WebUI/1.0/Web.config"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			"index.html,<open folders>",
+			"index.html",
+			"",
+			"C:\\Chuck\\Kendo UI\\Backbone-Fundamentals\\todos",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"home",
+			"\">",
+			"view2",
+			"selectedListId",
+			"updateList",
+			"emailaddress",
+			"input",
+			"navbar",
+			"navbar-inner",
+			".navbar .navbar-inner",
+			"navbar-inverse",
+			"navbarBackground",
+			"@gr",
+			"navbar",
+			"toggleClass",
+			"updateList",
+			"btnUserListUpdate",
+			"class=\"hidden\"",
+			"toggleClass(\"hidden\"",
+			"toggleClass",
+			"ema.data",
+			"schema",
+			"div",
+			"text-align",
+			"app.AppView",
+			"folder",
+			"questionText",
+			"searchform-wrap",
+			"CreateAccount",
+			"console",
+			"current_condition",
+			"773344006934787",
+			"Chef",
+			"k-first",
+			"first",
+			"_sortItems",
+			"on: {",
+			"on:",
+			".delegate",
+			"delegate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"style=\"display:none;\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 88.0
+	},
+	"project": "layouts-views-mvvm.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
