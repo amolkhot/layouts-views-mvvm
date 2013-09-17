@@ -6,13 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="assets/ico/favicon.png">
-
   <title>Chili Fun Factory</title>
 
   <!-- Bootstrap core CSS -->
@@ -28,24 +22,20 @@
       <!-- Custom styles for this template -->
       <link href="css/carousel.css" rel="stylesheet">
     </head>
-<!-- NAVBAR
-  ================================================== -->
   <body>
 
-   <!-- define a template for the layout -->
-   <script id="layout-template" type="text/x-keno-template">
-    <div class="subPage" style="margin-top: -1em !important; padding-top: 1em;">
-      <div id="navigation-layout"></div>
-    </div>
-    <div id="main-layout"></div>
-  </script>
-
-  <!-- define templates for all the views -->
-
+   <!-- start layout -->
+    <script id="layout-template" type="text/x-kendo-template">
+      <div class="subPage" style="margin-top: -1em !important; padding-top: 1em;">
+        <div id="navigation-layout"></div>
+      </div>
+      <div id="main-layout"></div>
+    </script>
+  <!-- end layout -->
+  <!-- start templates -->
     <script id="navigation-template" type="text/x-kendo-template">
       <div class="navbar-wrapper">
         <div class="container">
-
           <div class="navbar navbar-inverse navbar-static-top">
             <div class="container">
               <div class="navbar-header">
@@ -61,7 +51,7 @@
                   <li id="liHome" class="active" data-bind="events: { click: homeClicked }"><a href="#home">Home</a></li>
                   <li id="liAbout"><a href="#about" data-bind="events: { click: aboutClicked }">About</a></li>
                   <li id="liContact"><a href="#contact" data-bind="events: { click: contactClicked }">Contact</a></li>
-                  <li class="dropdown">
+                  <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                       <li><a href="#">Action</a></li>
@@ -72,23 +62,41 @@
                       <li><a href="#">Separated link</a></li>
                       <li><a href="#">One more separated link</a></li>
                     </ul>
-                  </li>
+                  </li>-->
                 </ul>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </script>
-
-     <script id="home-template" type="text/x-kendo-template">
-      <div class="container"><h1>home section</h1></div>
+    <script id="home-template" type="text/x-kendo-template">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-10">
+            <h1>home section</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet dui a congue eleifend. Etiam tincidunt velit tempus diam pharetra, ac aliquet nunc cursus. Fusce convallis ipsum euismod lectus malesuada dignissim sed ac dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus at metus quis felis elementum aliquet. Ut in nunc pellentesque dolor blandit blandit nec sit amet velit. Suspendisse potenti. Aenean non turpis at metus elementum vestibulum vel at purus. Donec interdum bibendum magna, ut vehicula purus iaculis at. Vivamus eget eleifend mi. Vestibulum urna ipsum, placerat vel posuere in, tincidunt vel nulla. Aliquam posuere velit quis dui semper dictum eu sed nibh. Proin ac viverra mi. Sed vel lacus ut est suscipit tempus sed eget felis. Nullam vehicula ut arcu eget eleifend.
+            </p>
+            <p>  
+              Quisque at sem iaculis, tincidunt nulla et, volutpat nibh. Quisque pharetra adipiscing fringilla. Phasellus dictum urna vel mollis mollis. Praesent tempor cursus leo ac vehicula. Sed et urna a ante tincidunt gravida. Suspendisse sit amet urna eu purus pellentesque pharetra. Donec dolor velit, suscipit a nisl vitae, accumsan faucibus velit. Nullam nec dictum elit, et eleifend sem. Phasellus nisi justo, volutpat vitae tellus vitae, feugiat porttitor purus. Donec pharetra malesuada diam vel dignissim. Nulla convallis felis ac vulputate dignissim. Integer vel nibh vel est eleifend sagittis. Maecenas non porta eros, accumsan mattis ante. Donec vitae nisl ac justo vehicula dictum id ut neque. Aliquam dapibus ultrices tortor, quis fringilla odio euismod in.
+            </p>
+            <p>  
+              Aliquam consequat sodales odio, ut posuere nulla. Suspendisse malesuada pulvinar justo, rutrum tempor lorem viverra sed. Nullam faucibus id dui in sagittis. Nunc eu viverra tellus. Integer porttitor nisi ligula, sed vestibulum eros tristique ornare. Nunc sed augue ac mauris ultricies accumsan. Pellentesque felis diam, consequat nec libero vitae, imperdiet molestie nisl. Etiam tristique, ipsum nec condimentum suscipit, metus libero adipiscing ligula, quis porttitor ipsum felis vitae enim. Suspendisse eu orci vitae felis malesuada cursus. Suspendisse bibendum euismod nulla nec pretium. Sed semper risus quis tincidunt congue. Duis et est vel mauris gravida tristique.
+            </p>
+            <p>
+              Ut eros dolor, porttitor quis tempus eget, molestie ac odio. Praesent dictum aliquam eleifend. Aenean dictum felis a diam viverra dignissim. Phasellus ultricies sagittis felis quis molestie. Proin tincidunt massa vel erat vulputate tincidunt. Nunc vel condimentum quam. Donec fermentum risus lorem, id semper lorem convallis id. Phasellus sollicitudin augue ac dapibus tristique. Cras dui augue, sodales non magna fringilla, bibendum laoreet urna. Donec blandit eleifend quam, a ornare nunc rutrum sit amet. Etiam rutrum fringilla enim non gravida. Vestibulum ut ornare neque. Pellentesque mauris mauris, faucibus at volutpat et, malesuada eu nulla. In eu nunc sit amet sem dignissim scelerisque. Donec consequat ipsum lectus, nec lacinia leo consequat in.
+            </p>
+            <p>
+              Morbi sollicitudin faucibus dui, vitae pharetra ligula adipiscing id. Cras aliquet erat eu diam tempus egestas. In dictum dictum massa vel mattis. Cras dictum libero in nisl tincidunt, id sodales eros condimentum. Fusce mollis in eros rutrum viverra. In hac habitasse platea dictumst. Vestibulum dictum, lorem pretium posuere scelerisque, sem magna congue odio, ut iaculis odio nunc quis odio. Nullam euismod eros at sem vulputate iaculis. Duis nec viverra erat. Ut ut suscipit sapien. Sed ultrices ultricies sapien, a molestie arcu molestie ac. Maecenas quis nisi nec nisl pretium vestibulum. Mauris pulvinar velit vel venenatis eleifend. Integer ornare quis arcu sed euismod. Fusce elementum leo ut orci lacinia suscipit.
+            </p>
+          </div>
+      </div>
     </script>
     <script id="about-template" type="text/x-kendo-template">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-10 col-lg-10">
             <h1>about chili fun factory</h1>
             <p>
               The idea for Chili Fun Factory came from my love of doing cutting edge web development and my love for my wife Sheli. 
@@ -103,7 +111,6 @@
         </div>
       </div>
     </script>
-
     <script id="contact-template" type="text/x-kendo-template">
       <div class="container">
         <h1>contact section</h1>
@@ -140,7 +147,6 @@
         </form>
       </div>
     </script>
-
     <script id="carousel-data-template" type="text/x-kendo-template">
       <div class="item" style="padding-top:10em;">
         <div class="container">
@@ -162,20 +168,15 @@
         </div>
       </div>
     </script>
-
-    <!-- a div to place everything in to the page -->
+  <!-- end templates -->
+    
+  <!-- a div to place everything in to the page -->
     <div id="main"></div>
-
-
 
     <script src="assets/js/jquery.js"></script>
     <script src="js/kendo.all.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="assets/js/holder.js"></script>
     <script src="js/main.js"></script>
-    <script>
-
-      
-    </script>
   </body>
 </html>

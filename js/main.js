@@ -1,6 +1,6 @@
   
 
-  var router, layout, kittehModel;
+  var router, layout;
 
   navigationModel = kendo.observable({
     homeClicked: function(){
