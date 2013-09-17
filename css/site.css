@@ -1,3 +1,16 @@
 .white{ color: #fff;}
 
 .subPage{ background-color: #777; position: relative; -webkit-transition: 0.6s ease-in-out left; transition: 0.6s ease-in-out left; }
+
+.k-tooltip-validation .k-warning
+{ 
+	display: none !important;
+}
+
+span.k-tooltip
+{
+	overflow: hidden !important;
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important; 
+}

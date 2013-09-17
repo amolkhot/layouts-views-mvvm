@@ -1,6 +1,6 @@
   
 
-  var router, layout;
+  var router, layout, navigationModel, contactModel;
 
   navigationModel = kendo.observable({
     homeClicked: function(){
@@ -46,11 +46,38 @@
     firstName: "",
     lastName: "",
     emailAddress: "",
-    comments: "",
+    userComments: "",
 
     sendContactInformation: function(e){
-      alert(kendo.stringify(this));
-
+      var validator = $("#contactForm").kendoValidator().data("kendoValidator");
+      if (validator.validate()) {
+        //alert(kendo.stringify(this));
+        
+        var recipients = {
+          "Recipients": [ 
+            "charles.catron@gmail.com"
+          ],
+          "Context":{
+            "Subject":"Chili Fun Factory Contact Form Submission",
+            "FromName": this.firstName + " " + this.lastName,
+            "Comments": this.userComments,
+            "FromEmail": this.emailAddress
+          }
+        };
+        $.ajax({
+          type: "POST",
+          url: "http://api.everlive.com/v1/Metadata/Applications/tVkEHjxXqY4ybnML/EmailTemplates/5c492d80-1c83-11e3-9922-b3161f4f66b5/send",
+          contentType: "application/json",
+          headers: { "Authorization" : "Accountkey 55LTUFyDAzL3wY4dN1EcoUM7GZFkorKtSMqxEIj0mprirjkd" },
+          data: JSON.stringify(recipients),
+          success: function(data){
+            alert("Email successfully sent.");
+          },
+          error: function(error){
+            alert(JSON.stringify(error));
+          }
+        });
+      }
     }
   });
 
