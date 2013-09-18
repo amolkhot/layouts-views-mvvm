@@ -101,6 +101,7 @@
             });  
           },
           function(error){
+            loader.hide();
             alert(JSON.stringify(error));
           }
         );
