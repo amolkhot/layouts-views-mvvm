@@ -1,6 +1,6 @@
-  
 
-  var router, layout, navigationModel, contactModel;
+  var el = new Everlive('tVkEHjxXqY4ybnML');
+  var router, layout, navigationModel, contactModel, loader;
 
   navigationModel = kendo.observable({
     homeClicked: function(){
@@ -34,6 +34,7 @@
 
     loadContact: function(){
       var contactView = new kendo.View("contact-template", { model: contactModel });
+      contactModel.init();
       layout.showIn("#main-layout", contactView);
 
       $("#gallery-layout").empty();
@@ -47,36 +48,62 @@
     lastName: "",
     emailAddress: "",
     userComments: "",
+    emailSent: false,
+    init: function(){
+      this.set("firstName", "");
+      this.set("lastName", "");
+      this.set("emailAddress", "");
+      this.set("userComments", "");
+      this.set("emailSent", "");
+    },
 
     sendContactInformation: function(e){
+      loader.show();
+      var self = this;
       var validator = $("#contactForm").kendoValidator().data("kendoValidator");
       if (validator.validate()) {
         //alert(kendo.stringify(this));
         
-        var recipients = {
-          "Recipients": [ 
-            "charles.catron@gmail.com"
-          ],
-          "Context":{
-            "Subject":"Chili Fun Factory Contact Form Submission",
-            "FromName": this.firstName + " " + this.lastName,
-            "Comments": this.userComments,
-            "FromEmail": this.emailAddress
-          }
-        };
-        $.ajax({
-          type: "POST",
-          url: "http://api.everlive.com/v1/Metadata/Applications/tVkEHjxXqY4ybnML/EmailTemplates/94aafba0-1ffc-11e3-821d-8b72df785e43/send",
-          contentType: "application/json",
-          headers: { "Authorization" : "Accountkey 55LTUFyDAzL3wY4dN1EcoUM7GZFkorKtSMqxEIj0mprirjkd" },
-          data: JSON.stringify(recipients),
-          success: function(data){
-            alert("Email successfully sent.");
+        var data = Everlive.$.data('ContactForm');
+        data.create(
+          { 
+            'firstName': self.firstName,
+            'lastName': self.lastName,
+            'emailAddress': self.emailAddress,
+            'userComments': self.userComments
+          }, 
+          function(data){
+            var recipients = {
+              "Recipients": [ 
+                "charles.catron@gmail.com"
+              ],
+              "Context":{
+                "firstName": self.firstName,
+                "lastName": self.lastName,
+                "emailAddress": self.emailAddress,
+                "userComments": self.userComments
+              }
+            };
+            $.ajax({
+                type: "POST",
+                url: 'https://api.everlive.com/v1/Metadata/Applications/560b1cc0-1c7f-11e3-b224-8396558d54d5/EmailTemplates/ContactEmail/send',
+                contentType: "application/json",
+                headers: { "Authorization" : "Accountkey WwfrqQ7tnKPeMLIpBmVFrRnAYfgRA1eVxU1je4C1kglU1YsJ" },
+                data: JSON.stringify(recipients),
+                success: function(data){
+                    self.set("emailSent", true);
+                    alert("Your email has been sent.");
+                },
+                error: function(error){
+                    self.set("emailSent", false);
+                    alert("We had a problem sending your email");
+                }
+            });  
           },
-          error: function(error){
+          function(error){
             alert(JSON.stringify(error));
           }
-        });
+        );
       }
     }
   });
@@ -118,4 +145,30 @@
   // start the router to handle the routes
   $(function() {
     router.start();
+
+    var docHeight = $(document).height();
+
+    $("body").append("<div id='overlay'><div class='circle'></div><div class='circle1'></div></div>");
+    loader = $("#overlay") 
+    loader
+      .height(docHeight)
+      .css({
+         'opacity' : 0.4,
+         'position': 'fixed',
+         'top': 0,
+         'left': 0,
+         'background-color': 'black',
+         'width': '100%',
+         'z-index': 5000,
+         'margin' : '0 auto',
+         'padding-top': '15em'
+    });
+    loader.hide();
+
+    $( document ).ajaxComplete(function() {
+      loader.hide();
+    });
+    $( document ).ajaxStart(function() {
+      loader.show();
+    });
   });
