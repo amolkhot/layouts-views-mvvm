@@ -43,7 +43,7 @@
     }
   });
 
-  contactModel = kendo.observable({
+  /*contactModel = kendo.observable({
     firstName: "",
     lastName: "",
     emailAddress: "",
@@ -106,6 +106,98 @@
           }
         );
       }
+    }
+  });*/
+
+  contactModel = kendo.observable({
+    firstName: "",
+    lastName: "",
+    emailAddress: "",
+    userComments: "",
+    emailSent: false,
+    init: function(){
+      this.set("firstName", "");
+      this.set("lastName", "");
+      this.set("emailAddress", "");
+      this.set("userComments", "");
+      this.set("emailSent", "");
+    },
+ 
+    sendContactInformation: function(e){
+      e.preventDefault();
+ 
+      loader.show();
+      var validator = $("#contactForm").kendoValidator().data("kendoValidator");
+ 
+      if (validator.validate()) {
+ 
+        contactModel._addContact(function(){
+          contactModel._sendEmail();
+        });
+ 
+      } else {
+        loader.hide();
+      }
+    },
+ 
+    _addContact: function(callback){
+      var ContactForm = Everlive.$.data('ContactForm');
+ 
+      var data = { 
+        'firstName': contactModel.get("firstName"),
+        'lastName': contactModel.get("lastName"),
+        'emailAddress': contactModel.get("emailAddress"),
+        'userComments': contactModel.get("userComments")
+      };
+ 
+      ContactForm.create(data, function(data){
+          console.log("Success creating contact!");
+          console.dir(data);
+ 
+          callback();
+ 
+        }, function(error){
+          console.log("ERROR creating contact!");
+          console.dir(error);
+          loader.hide();
+          alert(JSON.stringify(error));
+        }
+      );
+ 
+    },
+ 
+    _sendEmail: function(){
+      var recipients = {
+        "Recipients": [ 
+          "charles.catron@gmail.com"
+        ],
+        "Context":{
+          "firstName": contactModel.get("firstName"),
+          "lastName": contactModel.get("lastName"),
+          "emailAddress": contactModel.get("emailAddress"),
+          "userComments": contactModel.get("userComments")
+        }
+      };
+ 
+      $.ajax({
+          type: "POST",
+          url: 'https://api.everlive.com/v1/Metadata/Applications/560b1cc0-1c7f-11e3-b224-8396558d54d5/EmailTemplates/ContactEmail/send',
+          contentType: "application/json",
+          headers: { "Authorization" : "Accountkey WwfrqQ7tnKPeMLIpBmVFrRnAYfgRA1eVxU1je4C1kglU1YsJ" },
+          data: JSON.stringify(recipients),
+          success: function(data){
+            console.log("SUCCESS sending email");
+            console.dir(data);
+            contactModel.set("emailSent", true);
+            alert("Your email has been sent.");
+          },
+          error: function(error){
+            console.log("ERROR sending email");
+            console.dir(error);
+            contactModel.set("emailSent", false);
+            alert("We had a problem sending your email");
+          }
+      });  
     }
   });
 

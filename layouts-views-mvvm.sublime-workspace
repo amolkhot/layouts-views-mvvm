@@ -495,7 +495,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12503,
+				"buffer_size": 12960,
 				"line_ending": "Windows"
 			}
 		},
@@ -503,7 +503,15 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 3209,
+				"buffer_size": 7466,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.min.js",
+			"settings":
+			{
+				"buffer_size": 3750,
 				"line_ending": "Windows"
 			}
 		}
@@ -809,15 +817,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12503,
+						"buffer_size": 12960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12503,
-								12503
+								0,
+								0
 							]
 						],
 						"settings":
@@ -838,15 +846,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3209,
+						"buffer_size": 7466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2080,
-								2080
+								0,
+								7466
 							]
 						],
 						"settings":
@@ -855,8 +863,35 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 1.0,
-						"translation.y": 616.0,
+						"translation.x": 0.0,
+						"translation.y": 2431.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3750,
+								3750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
