@@ -66,7 +66,7 @@
         };
         $.ajax({
           type: "POST",
-          url: "http://api.everlive.com/v1/Metadata/Applications/tVkEHjxXqY4ybnML/EmailTemplates/5c492d80-1c83-11e3-9922-b3161f4f66b5/send",
+          url: "http://api.everlive.com/v1/Metadata/Applications/tVkEHjxXqY4ybnML/EmailTemplates/94aafba0-1ffc-11e3-821d-8b72df785e43/send",
           contentType: "application/json",
           headers: { "Authorization" : "Accountkey 55LTUFyDAzL3wY4dN1EcoUM7GZFkorKtSMqxEIj0mprirjkd" },
           data: JSON.stringify(recipients),
